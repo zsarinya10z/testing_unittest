@@ -9,7 +9,7 @@ public class App
     	Scanner input = new Scanner (System.in);
         System.out.println( " Input Celcius" );
         double celcius = input.nextDouble();
-        Fahrengeit f = new Fahrengeit ();
+        Fahrenheit f = new Fahrenheit ();
         
         while (!f .isBound(celcius)) {
         	System.out.println("input Again !!!");
