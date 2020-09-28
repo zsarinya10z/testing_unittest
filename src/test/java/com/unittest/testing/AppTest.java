@@ -4,10 +4,10 @@ import org.junit.Before;
 import org.junit.Test;
 public class AppTest 
 {
-	fahrenheit object;
+	Fahrengeit object;
 	@Before
 	public void newClassfahrenheit() {
-		object = new fahrenheit();
+		object = new Fahrengeit();
 	}
 	@Test
 	public void testResult0input0() {
