@@ -3,6 +3,7 @@ package com.unittest.testing;
 public class Fahrengeit {
 
 	private double celcius;
+	
 	public double getCelcius() {
 		return celcius;
 	}
@@ -17,5 +18,12 @@ public class Fahrengeit {
 			isResult = false;
 		}
 		return isResult;
+	}
+	public double Calulate() {
+		return 0;
+	}
+	public double calculate() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 }
