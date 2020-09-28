@@ -145,7 +145,7 @@ public class AppTest
 		assertEquals(expected,actual);
 	}
 		@Test
-		public void testResult00input00() {
+		public void testResult00input0() {
 			double input = 0;
 			double expected =0;
 			object.input(input);
@@ -153,7 +153,7 @@ public class AppTest
 			assertEquals(expected,actual,2);
 		}
 		@Test
-		public void testResult01input01() {
+		public void testResult01input1() {
 			double input = 1;
 			double expected =1;
 			object.input(input);
@@ -277,7 +277,7 @@ public class AppTest
 			double input = 0;
 			double expected = 32.00;
 			object.input(input);
-			double actual = object.calculate();
+			double actual = object.getCelcius();
 			assertEquals(expected,actual,2);
 		}
 		@Test
@@ -285,7 +285,7 @@ public class AppTest
 			double input = 1000;
 			double expected = 1832;
 			object.input(input);
-			double actual = object.calculate();
+			double actual = object.getCelcius();
 			assertEquals(expected,actual,2);
 		}
 		@Test
@@ -293,7 +293,7 @@ public class AppTest
 			double input = -1000;
 			double expected = -1768;
 			object.input(input);
-			double actual = object.calculate();
+			double actual = object.getCelcius();
 			assertEquals(expected,actual,2);
 		}
 		@Test
