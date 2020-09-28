@@ -19,11 +19,5 @@ public class Fahrengeit {
 		}
 		return isResult;
 	}
-	public double Calulate() {
-		return 0;
-	}
-	public double calculate() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	
 }
